@@ -73,7 +73,7 @@ body {
     background-color: #1d232c;
     width: 20%;
     height: 100%;
-    position: fixed;
+    position: absolute;
     top:0;
     left:0;
     padding:40px;
@@ -245,7 +245,7 @@ button.login-MAil-password {
     height: 30px;
     border-radius: 8px;
     font-weight: 600;
-    background: burlywood;
+    background: blue;
     margin-top: 20px;
     color:white;
 

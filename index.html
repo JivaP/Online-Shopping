@@ -49,8 +49,8 @@
 </nav>
 <!-- side navbar -->
 <div class="side-navbar">
-    <p style="text-align: right; display: block;" onclick="Closenavbar()">
-        <i class="fas fa-times"></i>
+    <p style="text-align: right; "onclick="Closenavbar()"  >
+        <i class="fas fa-times" ></i>
 
     </p>
     <div class="side-navbar-links">
@@ -184,6 +184,19 @@
         <p>@Shopping2024.com</p>
 
     </div>
+    
+  <h1>Student Registration Form</h1>
+  <form action="/register/" method="POST" autocomplete="off">
+    {% csrf_token %}
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    <input type="submit" value="Register">
+  </form>
+
     
 </body>
 <!-- javascript linked -->
