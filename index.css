@@ -250,7 +250,28 @@ button.login-MAil-password {
     color:white;
 
 }
+/* register from */
+/* form{
+    
+    
+    width: 0;
+    height: 20%;
+    position:absolute;
+    top: 0;
+    left:0;
+    padding:100px 200px;
+    margin: 250px 500px 200px ;
+    color: white;
+    background-color: #1d1d1d;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 
+}
+.login{
+    position:absolute;
+    
+} */
 
 
 
